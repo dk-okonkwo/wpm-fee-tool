@@ -1,7 +1,6 @@
 import {
   Outlet,
   createRootRoute,
-  Link,
   useRouterState,
 } from "@tanstack/react-router";
 import { Skeleton } from "@/components/ui/skeleton";

@@ -1,22 +1,5 @@
-import { AppSidebar } from "@/components/app-sidebar";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
-import { Separator } from "@/components/ui/separator";
-import {
-  SidebarInset,
-  SidebarProvider,
-  SidebarTrigger,
-} from "@/components/ui/sidebar";
 import React from "react";
 import {
-  Outlet,
-  createRootRoute,
   Link,
   useRouterState,
   useRouter,
@@ -25,7 +8,6 @@ import redLG from "../assets/images/redlogy.png";
 import {
   Buildings2,
   DocumentCloud,
-  Money,
   MoneyAdd,
   People,
   WalletMoney,
@@ -82,7 +64,7 @@ const navItems: navItem[] = [
   },
   {
     title: "Update Schedules",
-    url: "/update",
+    url: "/updates",
     icon: DocumentCloud,
   },
 ];
